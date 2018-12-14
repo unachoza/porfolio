@@ -53,6 +53,9 @@ body {
   img {
     border-radius: 4px;
     border: solid rgb(39, 192, 50) 1.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   button {
@@ -91,11 +94,17 @@ body {
         justify-content: space-between;
 
     }
+    p {
+      color: rgb(39, 192, 50);
+        font-family: monospace;
+        margin-bottom: 5vh;
+    }
     h1 {
         color: rgb(39, 192, 50);
         font-family: monospace;
         display: flex;
         justify-content: center;
+        padding-bottom: 40px;
     }
     .buttons{
         width: 40vw;
