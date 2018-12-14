@@ -81,6 +81,8 @@ body {
         color: rgb(39, 192, 50);
         font-family: monospace;
         display: flex;
+        width: 65vw;
+        margin: 17vw;
         justify-content: space-between;
 
     }
@@ -97,11 +99,13 @@ body {
         display: flex;
         justify-content: space-between;
     }
-    #page3{
-        display: flex;
+    .page3{
+        
         flex-direction: column;
-        margin-top: 4500px;
+        width: 60vw;
+        margin: 20vw;
         justify-content: center;
+        display: flex;
         
       }
       #page4{
@@ -120,6 +124,7 @@ body {
       }
       #contact{
         display: flex;
+        flex-direction: column;
       }
       .button-container {
           widows: ;
