@@ -21,7 +21,11 @@ body {
     animation: 
       typing 2s steps(95, end),
       blink-caret .5s step-end infinite;
-      
+    
+  }
+  .typewriter {
+      margin-left: 20vw;
+      margin-right: 20vw;
   }
   
   /* The typing effect */
@@ -48,7 +52,7 @@ body {
   }
   img {
     border-radius: 4px;
-    border: solid whitesmoke 1.5px;
+    border: solid rgb(39, 192, 50) 1.5px;
   }
   
   button {
@@ -76,13 +80,14 @@ body {
     }
   
     #projects {
-        widows: 80vw;
-        margin-top: 50px;
+        
         color: rgb(39, 192, 50);
         font-family: monospace;
         display: flex;
         width: 65vw;
-        margin: 17vw;
+        margin-left: 17vw;
+        margin-right: 17vw;
+       
         justify-content: space-between;
 
     }
@@ -126,12 +131,16 @@ body {
         display: flex;
         flex-direction: column;
       }
-      .button-container {
-          widows: ;
-          display: flex;
+      .contact-container {
+        widows: ;
+        display: flex;
         justify-content: center;
       }
       .row2{
-          text-align: center;
+        text-align: center;
         padding: 20px;
+      }
+      .button-container{
+        display: flex;
+        border: none;
       }
