@@ -1,0 +1,132 @@
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(39, 192, 50);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(39, 192, 50); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 2s steps(95, end),
+      blink-caret .5s step-end infinite;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(39, 192, 50) }
+  }
+  
+  .project-container{
+    display: none;
+  
+  }
+  ul {
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+  display: flex;
+  }
+  img {
+    border-radius: 4px;
+    border: solid whitesmoke 1.5px;
+  }
+  
+  button {
+    border: 5px solid  rgb(39, 192, 50);
+    border-radius: 1em;
+    height: 4em;
+    width: 9em;
+    background-color:  #333;
+    color: rgb(39, 192, 50);
+    font-family: monospace;
+  }
+  .page1{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    /* margin-top: 1000px; */
+    
+  }
+  #page2{
+      display: flex;
+      flex-direction: column;
+      margin-top: 450px;
+      justify-content: center;
+      
+    }
+  
+    #projects {
+        widows: 80vw;
+        margin-top: 50px;
+        color: rgb(39, 192, 50);
+        font-family: monospace;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    h1 {
+        color: rgb(39, 192, 50);
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons{
+        width: 40vw;
+        margin: 20px;
+        margin-left: 28vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    #page3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4500px;
+        justify-content: center;
+        
+      }
+      #page4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4500px;
+        justify-content: center;
+        
+      }
+      h2{
+        color: rgb(39, 192, 50);
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+
+      }
+      #contact{
+        display: flex;
+      }
+      .button-container {
+          widows: ;
+          display: flex;
+        justify-content: center;
+      }
+      .row2{
+          text-align: center;
+        padding: 20px;
+      }
