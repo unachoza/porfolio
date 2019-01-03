@@ -10,7 +10,8 @@ body {
   /* DEMO-SPECIFIC STYLES */
   .typewriter h1 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
     color: rgb(39, 192, 50);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -25,13 +26,15 @@ body {
     
   }
   .typewriter {
-      margin-left: 20vw;
-      margin-right: 20vw;
+      margin-left: 10vw;
+      margin-right: 10vw;
+      flex-wrap: wrap;
+
       
   }
   .typewriter h2 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     color: rgb(39, 192, 50);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -58,7 +61,8 @@ body {
   }
   .typewriter h1 #second-line{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
     color: rgb(39, 192, 50);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -120,9 +124,8 @@ body {
         color: rgb(39, 192, 50);
         font-family: monospace;
         display: flex;
-        width: 65vw;
-        margin-left: 17vw;
-        margin-right: 17vw;
+        width: 85vw;
+        margin-left: 7.5vw;
        
         justify-content: space-between;
 
@@ -146,7 +149,7 @@ body {
         display: flex;
         justify-content: space-between;
     }
-    .page3{
+    #page3{
         
         flex-direction: column;
         width: 60vw;
@@ -199,6 +202,20 @@ body {
     display: flex;
     flex-flow: wrap;
   }
+  
+  .typewriter h1 #second-line{
+    flex-wrap: wrap;
+    font-size: 20px;
+
+  }
+  .typewriter h2 {
+    flex-wrap: wrap;
+    font-size: 28px;
+  }
+  .typewriter h1 {
+    font-size: 50px;
+  }
+  
   button {
    width: 300px;
    height: 180px;
@@ -274,6 +291,81 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-family: monospace;
     display: flex;
     flex-flow: wrap;
+  }
+  .typewriter h1 #second-line{
+    flex-wrap: wrap;
+    font-size: 20px;
+
+  }
+  .typewriter h2 {
+    flex-wrap: wrap;
+    font-size: 28px;
+  }
+  .typewriter h1 {
+    font-size: 50px;
+  }
+  
+  button {
+   width: 300px;
+   height: 180px;
+  }
+  h1 {
+    font-size: 40px
+  }
+  p {
+    font-size: 35px;
+  }
+  h2{
+    font-size: 38px;
+    padding-bottom: 80px;
+  }
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    width: 500px;
+    height: 170px;
+    font-size: 32px;
+    margin: 10px;
+  }
+  .page3{
+    width: 75vw;
+    margin: auto;
+  }
+  #line1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #line2 {
+    margin-left:auto;
+    margin-right: auto;
+    margin: 0;
+  }
+  .row2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .row1{
+    padding: 20px;
+  }
+  #github{
+    margin-top: 47px;
+  }
+  #page1{
+    margin-top: 600px;
+    margin-bottom: 600px;
+  }
+  .page3 {
+    margin-top: 450px;
+  }
+  .page4 {
+    margin-top: 1100px;
+    margin-bottom: 600px;
   }
 }
         

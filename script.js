@@ -1,23 +1,20 @@
 console.log('working!')
-var projects = document.querySelector("#projects-button")
-var aboutMe = document.querySelector("#about-me-button")
-var contact = document.querySelector("#contact-button")
+
+var projects = document.querySelector("#pp")
+var aboutMe = document.querySelector("#am")
+var aboutMe = document.querySelector("#c")
 
 function scrollWin(x, y) {
     window.scrollBy(x, y);
+    // if (x.matches){
+    //     window.scrollBy(x, y);
+    // }
 }
-// function scrollProjects () {
-//     document.getElementById('projects').ready(() => {
-//         localScroll({duration:800});
-//  });
- 
+function scrollP(){
+    console.log('im clicked')
+    document.querySelector("#pp").style.color = "blue"
+    document.querySelector("#pp").scrollTo(("#projects"), 1000)
 
- /*/  function scrollAboutMe () {
-//     document.getElementById('about-me').localScroll({duration:800});
-//  };
-//  function scrollContact () {
-//     document.getElementById('contact').localScroll({duration:800});
-//  };
 
 // timedText()
 // function timedText() {
