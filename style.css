@@ -87,14 +87,29 @@ body {
   width: 75vw;
   display: flex;
   }
-  img {
+  /* img {
+    border-radius: 4px;
+    border: solid rgb(39, 192, 50) 1.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  } */
+  .double-down  {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+  }
+  .project-img {
     border-radius: 4px;
     border: solid rgb(39, 192, 50) 1.5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   button {
     border: 5px solid  rgb(39, 192, 50);
     border-radius: 1em;
@@ -121,7 +136,7 @@ body {
   
     #projects {
         
-        color: rgb(39, 192, 50);
+        color: rgb(144, 253, 151);
         font-family: monospace;
         display: flex;
         width: 85vw;
@@ -191,8 +206,9 @@ body {
         padding: 20px;
       }
       .button-container{
-        display: flex;
-        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
       #line1 {
         margin-top: 30px;
@@ -210,6 +226,7 @@ body {
       }
       #github{
         padding-top: 23px;
+        padding-bottom: 68.5px;
       }
 
 
