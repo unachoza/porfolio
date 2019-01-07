@@ -154,6 +154,7 @@ body {
         flex-direction: column;
         width: 60vw;
         margin: 20vw;
+        margin-top: 1000px;
         justify-content: center;
         display: flex;
         
@@ -161,7 +162,7 @@ body {
       #page4{
         display: flex;
         flex-direction: column;
-        margin-top: 4500px;
+        margin-top: 1500px;
         justify-content: center;
         
       }
@@ -170,8 +171,9 @@ body {
         font-family: monospace;
         display: flex;
         justify-content: center;
-
+        padding-bottom: 65px;
       }
+      
       #contact{
         display: flex;
         flex-direction: column;
@@ -181,6 +183,9 @@ body {
         display: flex;
         justify-content: center;
       }
+      .row1{
+        padding: 20px;
+      }
       .row2{
         text-align: center;
         padding: 20px;
@@ -189,11 +194,29 @@ body {
         display: flex;
         border: none;
       }
+      #line1 {
+        margin-top: 30px;
+        margin-bottom: 0;
+        padding: 0;
+      }
+      #line2 {
+        margin-left:auto;
+        margin-right: auto;
+        margin: 0;
+      }
+      #l-padding{
+        padding-top: 20px;
+        padding-bottom: 73px;
+      }
+      #github{
+        padding-top: 23px;
+      }
+
 
 /* iphone X */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 814px) 
   and (-webkit-min-device-pixel-ratio: 3) {  
 
   #projects {
@@ -246,6 +269,7 @@ body {
     width: 75vw;
     margin: auto;
   }
+ 
   #line1 {
     margin-top: 30px;
     margin-bottom: 0;
@@ -265,7 +289,8 @@ body {
     padding: 20px;
   }
   #github{
-    margin-top: 47px;
+    
+    padding-bottom: 90px;
   }
   #page1{
     margin-top: 600px;
@@ -277,6 +302,9 @@ body {
   .page4 {
     margin-top: 1100px;
     margin-bottom: 600px;
+  }
+  #l-padding{
+   
   }
   }
 
@@ -353,8 +381,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .row1{
     padding: 20px;
   }
+  #l-padding{
+    
+  }
   #github{
-    margin-top: 47px;
+    padding-bottom: 90px;
   }
   #page1{
     margin-top: 600px;
