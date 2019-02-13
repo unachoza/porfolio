@@ -147,6 +147,8 @@ body {
         display: flex;
         width: 85vw;
         margin-left: 7.5vw;
+        display: flex;
+        flex-wrap: wrap;
        
         justify-content: space-between;
 
