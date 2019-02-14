@@ -140,7 +140,7 @@ button {
 #page2{
     display: flex;
     flex-direction: column;
-    margin-top: 450px;
+    margin-top: 100px;
     justify-content: center;
     
   }
@@ -189,7 +189,7 @@ button {
       flex-direction: column;
       width: 60vw;
       margin: 20vw;
-      margin-top: 1000px;
+      margin-top: 200px;
       justify-content: center;
       display: flex;
       
@@ -242,11 +242,11 @@ button {
     }
     #l-padding{
       padding-top: 20px;
-      padding-bottom: 73px;
+      padding-bottom: 18px;
     }
     #github{
       padding-top: 23px;
-      padding-bottom: 68.5px;
+      padding-bottom: 15px;
     }
 
 
