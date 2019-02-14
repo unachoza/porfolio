@@ -293,7 +293,7 @@ h1 {
   font-size: 40px
 }
 p {
-  font-size: 35px;
+  font-size: 30px;
 }
 h2{
   font-size: 38px;
@@ -350,6 +350,7 @@ button {
   margin-bottom: 600px;
 }
 #l-padding{
+  padding-bottom: 78px;
  
 }
 }
@@ -396,7 +397,7 @@ h1 {
   font-size: 40px
 }
 p {
-  font-size: 35px;
+  font-size: 30px;
 }
 h2{
   font-size: 38px;
@@ -437,7 +438,7 @@ button {
   padding: 20px;
 }
 #l-padding{
-  
+  padding-bottom: 78px;
 }
 #github{
   padding-bottom: 90px;
