@@ -157,8 +157,9 @@ button {
     
   }
 .these-projects{
-  width: 25%;
-  margin: 3%;
+  min-width: 205px;
+  max-width: 305px;
+  margin-bottom: 3%;
 }
   #projects {
       
@@ -176,7 +177,7 @@ button {
   p {
     color: rgb(39, 192, 50);
       font-family: monospace;
-      margin-bottom: 5vh;
+      /* margin-bottom: 5vh; */
       width: 90%;
       margin-left: auto;
       margin-right: auto; 
@@ -214,6 +215,13 @@ button {
       
     }
     h2{
+      color: rgb(39, 192, 50);
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 10px;
+    }
+    h3{
       color: rgb(39, 192, 50);
       font-family: monospace;
       display: flex;
