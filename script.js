@@ -10,8 +10,5 @@ function scrollWin(x, y) {
     //     window.scrollBy(x, y);
     // }
 }
-function scrollP(){
-    console.log('im clicked')
-    document.querySelector("#pp").style.color = "blue"
-    document.querySelector("#pp").scrollTo(("#projects"), 1000)
-}
+
+

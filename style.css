@@ -13,7 +13,9 @@ body {
 .footer {
   height: 50px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* DEMO-SPECIFIC STYLES */
 
 .typewriter h1 {

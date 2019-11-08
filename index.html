@@ -93,7 +93,8 @@
             
             </div>
         </div>
-        <img class="double-down"id="projects-double-down" onclick="window.location.href='#page3'" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"/>
+        <img class="double-down"id="projects-double-down" onclick="window.location.href='#page3'"
+         src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"/>
     </div>
     <div id="page3">
         <h1>About Me</h1>
@@ -131,5 +132,11 @@
     </div>
 
 </body>
-<script src="script.js"></script>
+<script src="script.js">
+function smoothScroll () {
+    document.getElementById('page3').scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+        }
+</script>
 </html>
