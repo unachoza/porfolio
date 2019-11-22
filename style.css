@@ -90,6 +90,9 @@ html {
 a{
 cursor: pointer;
 }
+a:hover {
+  color: rgb(64, 241, 75);
+}
 button{
   cursor: pointer;
 }
@@ -126,8 +129,8 @@ display: flex;
   margin-top: 170px;
 }
 .project-img {
-  max-width: 223px;
-  max-height: 137px;
+  width: 223px;
+  height: 137px;
   border-radius: 4px;
   border: solid rgb(39, 192, 50) 1.5px;
   display: block;
@@ -143,6 +146,10 @@ button {
   background-color:  #333;
   color: rgb(39, 192, 50);
   font-family: monospace;
+}
+button:hover {
+  border: 5px solid  rgb(64, 241, 75);
+  color: rgb(64, 241, 75);
 }
 .page1{
   display: flex;
@@ -160,7 +167,7 @@ button {
   }
 .these-projects{
   min-width: 205px;
-  max-width: 305px;
+  width: 405px;
   margin-bottom: 3%;
 }
   #projects {
@@ -278,16 +285,24 @@ button {
 and (min-device-width: 375px) 
 and (max-device-width: 814px) 
 and (-webkit-min-device-pixel-ratio: 3) {  
+  h3 {
+    font-size: 30px;
+  }
+
+  #about-me {
+    margin-bottom: 400px;
+  }
 
   .these-projects{
+    
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: auto;
+    margin-bottom: 80px;
   }
-  .project-img{
-height: 15vh;;
-  }
+ 
+  
 #projects {
   color: rgb(39, 192, 50);
   font-family: monospace;
@@ -337,6 +352,7 @@ button {
 .page3{
   width: 75vw;
   margin: auto;
+  margin-bottom: 600px;
 }
 
 #line1 {
@@ -395,9 +411,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
   flex-direction: column;
   width: 80%;
   margin: auto;
+  margin-bottom: 80px;
 }
 .project-img{
-  height: 15vh;;
+  width: 550px;;
+  height: 400px;
     }
 .typewriter h1 #second-line{
   flex-wrap: wrap;
@@ -418,6 +436,9 @@ button {
 }
 h1 {
   font-size: 40px
+}
+h3 {
+  font-size: 30px;
 }
 p {
   font-size: 30px;
@@ -472,6 +493,7 @@ button {
 }
 .page3 {
   margin-top: 450px;
+  margin-bottom: 600px;
 }
 .page4 {
   margin-top: 1100px;
