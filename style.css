@@ -438,6 +438,11 @@ button {
 and (min-device-width: 320px) 
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
+  .annimation {
+    font-size: 60px;
+    margin: 0 auto 100px auto;
+    width: 70%
+  }
 #projects {
   color: rgb(39, 192, 50);
   font-family: monospace;
