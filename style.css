@@ -5,7 +5,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
 }
 /* .content {
   min-height: calc(100vh - 70px);
@@ -17,14 +16,13 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* ***************** */
 /* NEW TYPEWRITTER */
 /* ******************** */
 body {
   background-color: #000000;
   height: 100%;
-  font-family: monospace
+  font-family: monospace;
 }
 
 .annimation {
@@ -37,7 +35,7 @@ body {
 }
 
 span {
-  border-right: .05em solid;
+  border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
 }
 
@@ -47,7 +45,6 @@ span {
   }
 }
 
-
 /* DEMO-SPECIFIC STYLES */
 
 .typewriter h1 {
@@ -56,23 +53,19 @@ span {
   color: rgb(39, 192, 50);
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #27c032; /* The typwriter cursor */
+  border-right: 0.15em solid #27c032; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 2s steps(95, end),
-    blink-caret .5s step-end infinite;
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 2s steps(95, end), blink-caret 0.5s step-end infinite;
   /* animation-delay: 1.5s; */
   /* visibility: visible; */
 }
 .typewriter {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    flex-wrap: wrap;
-    /* visibility: hidden; */
-
-    
+  margin-left: 10vw;
+  margin-right: 10vw;
+  flex-wrap: wrap;
+  /* visibility: hidden; */
 }
 .typewriter h2 {
   display: flex;
@@ -80,81 +73,75 @@ span {
   color: rgb(39, 192, 50);
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(39, 192, 50); /* The typwriter cursor */
+  border-right: 0.15em solid rgb(39, 192, 50); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 2s steps(95, end),
-    blink-caret .5s step-end infinite;
-    /* animation-delay: 4s; */
-  
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 2s steps(95, end), blink-caret 0.5s step-end infinite;
+  /* animation-delay: 4s; */
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(39, 192, 50) }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(39, 192, 50);
+  }
 }
-.typewriter h1 #second-line{
+.typewriter h1 #second-line {
   display: flex;
   /* justify-content: center; */
   flex-wrap: wrap;
   color: rgb(39, 192, 50);
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(39, 192, 50); /* The typwriter cursor */
+  border-right: 0.15em solid rgb(39, 192, 50); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: 0.15em; /* Adjust as needed */
   animation-delay: 4s;
-  animation: 
-    typing 2s steps(95, end),
-    blink-caret .5s step-end infinite;
-    
+  animation: typing 2s steps(95, end), blink-caret 0.5s step-end infinite;
 }
-a{
-cursor: pointer;
+a {
+  cursor: pointer;
 }
 a:hover {
   color: rgb(64, 241, 75);
 }
-button{
+button {
   cursor: pointer;
 }
-.project-container{
+.project-container {
   display: none;
-
 }
 ul {
-display: flex;
-justify-content: center;
-width: 75vw;
-display: flex;
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+  display: flex;
 }
-/* img {
-  border-radius: 4px;
-  border: solid rgb(39, 192, 50) 1.5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-} */
-.double-down  {
-  
+
+.double-down {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 270px;
   cursor: pointer;
 }
-#projects-double-down{
+#projects-double-down {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -171,156 +158,144 @@ display: flex;
 }
 
 button {
-  border: 5px solid  rgb(39, 192, 50);
+  border: 5px solid rgb(39, 192, 50);
   border-radius: 1em;
   height: 4em;
   width: 9em;
-  background-color:  #000000;
+  background-color: #000000;
   color: rgb(39, 192, 50);
   font-family: monospace;
 }
 button:hover {
-  border: 5px solid  rgb(64, 241, 75);
+  border: 5px solid rgb(64, 241, 75);
   color: rgb(64, 241, 75);
 }
-.page1{
+.page1 {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  height: 400px;
-  /* margin-top: 1000px; */
-  
+  height: 600px;
 }
-#page2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    justify-content: center;
-    
-  }
-.these-projects{
+#page2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center;
+}
+.these-projects {
   min-width: 205px;
   width: 405px;
   margin-bottom: 3%;
 }
-  #projects {
-      
-      color: rgb(144, 253, 151);
-      font-family: monospace;
-      display: flex;
-      width: 85vw;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-     
-      justify-content: space-between;
+#projects {
+  color: rgb(144, 253, 151);
+  font-family: monospace;
+  display: flex;
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 
-  }
-  p {
-    color: rgb(39, 192, 50);
-      font-family: monospace;
-      /* margin-bottom: 5vh; */
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto; 
-      text-align: justify
-  }
-  h1 {
-      color: rgb(39, 192, 50);
-      font-family: monospace;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 40px;
-  }
-  .buttons{
-      width: 40vw;
-      margin: 20px;
-      margin-left: 28vw;
-      display: flex;
-      justify-content: space-between;
-  }
-  #page3{
-      
-      flex-direction: column;
-      width: 60vw;
-      margin: 20vw;
-      margin-top: 200px;
-      justify-content: center;
-      display: flex;
-      
-    }
-    #page4{
-      display: flex;
-      flex-direction: column;
-      margin-top: 200px;
-      justify-content: center;
-      
-    }
-    h2{
-      color: rgb(39, 192, 50);
-      font-family: monospace;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 10px;
-    }
-    h3{
-      color: rgb(39, 192, 50);
-      font-family: monospace;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 10px;
-    }
-    
-    #contact{
-      display: flex;
-      flex-direction: column;
-    }
-    .contact-container {
-      /* widows: ; */
-      display: flex;
-      justify-content: center;
-    }
-    .row1{
-      padding: 20px;
-    }
-    .row2{
-      text-align: center;
-      padding: 20px;
-    }
-    .button-container{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 6px;
-    }
-    #line1 {
-      margin-top: 30px;
-      margin-bottom: 0;
-      padding: 0;
-    }
-    #line2 {
-      margin-left:auto;
-      margin-right: auto;
-      margin: 0;
-    }
-    #l-padding{
-      padding-top: 20px;
-      padding-bottom: 18px;
-    }
-    #github{
-      padding-top: 23px;
-      padding-bottom: 15px;
-    }
+  justify-content: space-between;
+}
+p {
+  color: rgb(39, 192, 50);
+  font-family: monospace;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+h1 {
+  color: rgb(39, 192, 50);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.buttons {
+  width: 40vw;
+  margin: 20px;
+  margin-left: 28vw;
+  display: flex;
+  justify-content: space-between;
+}
+#page3 {
+  flex-direction: column;
+  width: 60vw;
+  margin: 20vw;
+  margin-top: 200px;
+  justify-content: center;
+  display: flex;
+}
+#page4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  justify-content: center;
+}
+h2 {
+  color: rgb(39, 192, 50);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+h3 {
+  color: rgb(39, 192, 50);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
 
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.row1 {
+  padding: 20px;
+}
+.row2 {
+  text-align: center;
+  padding: 20px;
+}
+.button-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+#line1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0;
+}
+#line2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+}
+#l-padding {
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+#github {
+  padding-top: 23px;
+  padding-bottom: 15px;
+}
 
 /* iphone X */
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 814px) 
-and (-webkit-min-device-pixel-ratio: 3) {  
+@media only screen and (min-device-width: 375px) and (max-device-width: 814px) and (-webkit-min-device-pixel-ratio: 3) {
   .annimation {
     font-size: 60px;
     margin: 0 auto 100px auto;
-    width: 70%
+    width: 70%;
   }
   h3 {
     font-size: 30px;
@@ -330,217 +305,207 @@ and (-webkit-min-device-pixel-ratio: 3) {
     margin-bottom: 400px;
   }
 
-  .these-projects{
-    
+  .these-projects {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: auto;
     margin-bottom: 80px;
   }
- 
-  
-#projects {
-  color: rgb(39, 192, 50);
-  font-family: monospace;
-  display: flex;
-  flex-flow: wrap;
+
+  #projects {
+    color: rgb(39, 192, 50);
+    font-family: monospace;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .typewriter h1 #second-line {
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .typewriter h2 {
+    flex-wrap: wrap;
+    font-size: 28px;
+  }
+  .typewriter h1 {
+    font-size: 50px;
+  }
+
+  button {
+    width: 300px;
+    height: 180px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 38px;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    width: 500px;
+    height: 170px;
+    font-size: 32px;
+    margin: 10px;
+  }
+  .page3 {
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 600px;
+  }
+
+  #line1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #line2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+  }
+  .row2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .row1 {
+    padding: 20px;
+  }
+  #github {
+    padding-bottom: 90px;
+  }
+  #page1 {
+    margin-top: 600px;
+    margin-bottom: 600px;
+  }
+  .page3 {
+    margin-top: 450px;
+  }
+  .page4 {
+    margin-top: 1100px;
+    margin-bottom: 600px;
+  }
+  #l-padding {
+    padding-bottom: 78px;
+  }
 }
 
-.typewriter h1 #second-line{
-  flex-wrap: wrap;
-  font-size: 20px;
-
-}
-.typewriter h2 {
-  flex-wrap: wrap;
-  font-size: 28px;
-}
-.typewriter h1 {
-  font-size: 50px;
-}
-
-button {
- width: 300px;
- height: 180px;
-}
-h1 {
-  font-size: 40px
-}
-p {
-  font-size: 30px;
-}
-h2{
-  font-size: 38px;
-  padding-bottom: 80px;
-}
-.buttons {
-  width: 80vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-button {
-  width: 500px;
-  height: 170px;
-  font-size: 32px;
-  margin: 10px;
-}
-.page3{
-  width: 75vw;
-  margin: auto;
-  margin-bottom: 600px;
-}
-
-#line1 {
-  margin-top: 30px;
-  margin-bottom: 0;
-  padding: 0;
-}
-#line2 {
-  margin-left:auto;
-  margin-right: auto;
-  margin: 0;
-}
-.row2 {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-.row1{
-  padding: 20px;
-}
-#github{
-  
-  padding-bottom: 90px;
-}
-#page1{
-  margin-top: 600px;
-  margin-bottom: 600px;
-}
-.page3 {
-  margin-top: 450px;
-}
-.page4 {
-  margin-top: 1100px;
-  margin-bottom: 600px;
-}
-#l-padding{
-  padding-bottom: 78px;
- 
-}
-}
-
-    
- /* iphone 6 */
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2) {
+/* iphone 6 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .annimation {
     font-size: 60px;
     margin: 0 auto 100px auto;
-    width: 70%
+    width: 70%;
   }
-#projects {
-  color: rgb(39, 192, 50);
-  font-family: monospace;
-  display: flex;
-  flex-flow: wrap;
-}
-.these-projects{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 80px;
-}
-.project-img{
-  width: 550px;;
-  height: 400px;
-    }
-.typewriter h1 #second-line{
-  flex-wrap: wrap;
-  font-size: 20px;
+  #projects {
+    color: rgb(39, 192, 50);
+    font-family: monospace;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .these-projects {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  .project-img {
+    width: 550px;
+    height: 400px;
+  }
+  .typewriter h1 #second-line {
+    flex-wrap: wrap;
+    font-size: 20px;
+  }
+  .typewriter h2 {
+    flex-wrap: wrap;
+    font-size: 28px;
+  }
+  .typewriter h1 {
+    font-size: 50px;
+  }
 
+  button {
+    width: 300px;
+    height: 180px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 38px;
+    padding-bottom: 80px;
+    text-align: justify;
+  }
+  .buttons {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    width: 500px;
+    height: 170px;
+    font-size: 32px;
+    margin: 10px;
+  }
+  .page3 {
+    width: 75vw;
+    margin: auto;
+  }
+  #line1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #line2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+  }
+  .row2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .row1 {
+    padding: 20px;
+  }
+  #l-padding {
+    padding-bottom: 78px;
+  }
+  #github {
+    padding-bottom: 90px;
+  }
+  #page1 {
+    margin-top: 600px;
+    margin-bottom: 600px;
+  }
+  .page3 {
+    margin-top: 450px;
+    margin-bottom: 600px;
+  }
+  .page4 {
+    margin-top: 1100px;
+    margin-bottom: 600px;
+  }
 }
-.typewriter h2 {
-  flex-wrap: wrap;
-  font-size: 28px;
-}
-.typewriter h1 {
-  font-size: 50px;
-}
-
-button {
- width: 300px;
- height: 180px;
-}
-h1 {
-  font-size: 40px
-}
-h3 {
-  font-size: 30px;
-}
-p {
-  font-size: 30px;
-}
-h2{
-  font-size: 38px;
-  padding-bottom: 80px;
-}
-.buttons {
-  width: 80vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-button {
-  width: 500px;
-  height: 170px;
-  font-size: 32px;
-  margin: 10px;
-}
-.page3{
-  width: 75vw;
-  margin: auto;
-}
-#line1 {
-  margin-top: 30px;
-  margin-bottom: 0;
-  padding: 0;
-}
-#line2 {
-  margin-left:auto;
-  margin-right: auto;
-  margin: 0;
-}
-.row2 {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-.row1{
-  padding: 20px;
-}
-#l-padding{
-  padding-bottom: 78px;
-}
-#github{
-  padding-bottom: 90px;
-}
-#page1{
-  margin-top: 600px;
-  margin-bottom: 600px;
-}
-.page3 {
-  margin-top: 450px;
-  margin-bottom: 600px;
-}
-.page4 {
-  margin-top: 1100px;
-  margin-bottom: 600px;
-}
-}
-
-        
