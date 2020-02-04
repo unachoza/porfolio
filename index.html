@@ -1,161 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="page1">
-        <!-- <div class="typewriter"> -->
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="page1">
             <div class="annimation"> >
-                <!-- <h1 id="first-line"> >Hello World<br/></h1>
-                <h2 ><a href="#page2"></a>Welcome to Arianna Choza's Portfolio</h2> -->
             </div>
-            <!-- <h1 id="first-line"> >Hello World<br/></h1>
-            <h2 ><a href="#page2"></a>Welcome to Arianna Choza's Portfolio</h2> -->
-        <!-- </div>    -->
-        <div class="buttons">
-            <button onclick="window.location.href='#page2'">Projects</button>
-            <button onclick="window.location.href='#page3'">About Me</button>
-            <button onclick="window.location.href='#page4'">Contact</button>
+            <div class="buttons">
+                <button onclick="window.location.href='#page2'">Projects</button>
+                <button onclick="window.location.href='#page3'">About Me</button>
+                <button onclick="window.location.href='#page4'">Contact</button>
+            </div>
+            <img onclick="window.location.href='#page2'" class="double-down"
+                src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"
+                />
         </div>
-            <img onclick="window.location.href='#page2'" class="double-down" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"/>
-            
-    </div>
-    <div id ="page2">
-            <div id ="page2">
-                    <h1>Project List</h1>
-                    <div id="projects">
-                <div class="these-projects">
-                    <a href="http://susans.surge.sh/" target="_blank"> 
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_230/v1546220914/susan-sarandon.jpg"/></a><br/>
-                    <h2>Susan Says</h2>
-                    <p>Interactive arcade style memory game using vanilla javascript, CSS and Responsive Web Design. Users repeat a color pattern delivered by "Susan" that gets infinitely longer as they continue to repeat correctly. Upon arriving to each new level, the background changes to a differnt feminist. Users recieve a score at the end. Be ware, it's addictive!</p>
-                      <a href="https://github.com/unachoza/Susan-Says" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-                <div class="these-projects">
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574386294/Screen_Shot_2019-11-21_at_8.31.22_PM.png"/></a><br/>
-                    <h2>Cancel R Kelly</h2>
-                    <p>Cancel RKelly is an app that effortlessly allows users remove Rkelly songs from their Spotify Playists and Library.  This app populates users playlists, then filters through to find playlists containing R Kelly songs and promps the user to delete them. Using the Spotify API, React, Nodejs, Express, and PostgreSQL. </p>
-                      <a href="https://github.com/unachoza/Cancel-RKelly-with-Spotify-Auth" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-                
-                <div class="these-projects">
-                    <a href="https://image-recognition-w.herokuapp.com/" target="_blank"> 
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1579988881/Screen_Shot_2020-01-25_at_4.47.50_PM.png"/></a><br/>
-                    <h2>Face Recognition AI</h2>
-                    <p>Artificial Intelligence is used to detect faces in images. Users enter image urls and AI does the rest!  </p>
-                      <a href="https://github.com/unachoza/Recognition-Fullstack-" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-                <div class="these-projects">
-                    <a href=" https://searchinggithub.herokuapp.com/" target="_blank"> 
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1571777311/Screen_Shot_2019-10-22_at_4.46.59_PM.png"/></a><br/>
-                    <h2>Github Respo Search</h2>
-                    <p>This app uses the Github API to allow users to search for a specific respository. Users can filter by license types, number of stars and decide to include forks. Links provide take users to that repo on Github. Written in Typescript</p>
-                      <a href="https://github.com/unachoza/PrivateGithubSearch" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-                <div class="these-projects">
-                    <a href="https://cat-friends.herokuapp.com/" target="_blank">
-                        <img class="project-img"
-                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_230/v1553108095/Screen_Shot_2019-03-20_at_2.54.09_PM.png" /></a><br />
-                    <h2>These Friends</h2>
-                    <p>React App displaying contact cards for cat friends using react, jsx, css, and making use of component lifecyles while fetching data. Users can search for friends by name or email address </p>
-                <a href="https://github.com/unachoza/cat-friends" target="_blank"><h3>See My Code </h3></a>
-                    </div>
-                <div class="these-projects">
-                    <a href="https://this-youtube-clone.herokuapp.com/" target="_blank">
-                        <img class="project-img"
-                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_230/v1553109235/Screen_Shot_2019-03-20_at_2.59.22_PM.png" /></a><br />
-                    <h2>Stream Videos</h2>
-                    <p>React App fetching data from Youtube API. Design so similar to Youtube it's almost freaky.</p>
-                      <a href="https://github.com/unachoza/search-video" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-             
-                <div class="these-projects">
-                    <a href="https://searching-images.herokuapp.com/" target="_blank">
-                      <img class="project-img"
-                        src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574443242/Screen_Shot_2019-11-22_at_12.20.00_PM.png"/></a><br />
-                    <h2>Image Search</h2>
-                    <p>React App to Search the Google Images API and display the first 10 returns. Register and sign in to keep track of how many images you've entered! </p>
-                    <a href="https://github.com/unachoza/Image-Search" target="_blank"> <h3>See My Code </h3></a> 
-                 </div>
-                 <div class="these-projects">
-                    <a href="http://interestingflowers.surge.sh/" target="_blank">
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574386767/Screen_Shot_2019-11-21_at_8.39.16_PM.png"/></a><br/>
-                    <h2>Flower Finder</h2>
-                    <p>React app using fetches, JSX, CSS animations, local storage and data files. This web app displays a library of interesting flower cards. When users click on the flower image, more information about that flower is pulled from a database.</p>
-                      <a href="https://github.com/unachoza/FlowerFinder" target="_blank"> <h3>See My Code </h3></a>
-                </div> 
-                
-                <div class="these-projects">
-                    <a href="http://askmagic8ball.surge.sh/" target="_blank">
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140/v1550079485/Screen_Shot_2019-02-13_at_12.37.02_PM.png"/></a><br/>
-                    <h2>Magic 8 Ball</h2>
-                    <p>An Interactive Fortune Telling game using javascript, html, and CSS Animations. Ask the magic 8 ball a Yes or No question and recieve a very accurate response.</p>
-                      <a href="https://github.com/unachoza/Magic-8-Ball" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-                <div class="these-projects">
-                    <a href="http://thesearethedetailsforthisparty.surge.sh/" target="_blank">
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_247/v1550016489/Screen_Shot_2019-02-12_at_7.06.34_PM.png"/></a><br/>
-                    <h2>Garden Party </h2>
-                    <p>Mobile party invitation, heavy on CSS Animations. This invitation begins with a 10 seconds flower animation followered by details of the party to inform the guest of the whimsical garden party they've been invited to. </p>
-                      <a href="https://github.com/unachoza/Garden-Party-Invite" target="_blank"> <h3>See My Code </h3></a>
-                </div>
-                <div class="these-projects">
-                    <a href="https://public-book-club.herokuapp.com/" target="_blank">
-                    <img class="project-img" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574444186/Screen_Shot_2019-11-22_at_12.36.14_PM.png"/></a><br/>
-                    <h2>Book Club</h2>
-                    <p>Full-stack MVC app intergraded with APIs, Node.js, Express and PostgreSQL. Users can create a profile, search the library, that pulls from the Google Books API for a book they wish to read or create a book club for. Users can add to the reading list, create book clubs, and find more interesting reads. A RESTful API was built to support a database of users, users' reading lists, and book clubs. </p>
-                      <a href="https://github.com/unachoza/Book-Clubs" target="_blank"> <h3>See My Code </h3></a>
-                </div>
+        <div id="page2">
+            <div id="page2">
+                <h1>Project List</h1>
+                <div id="projects">
 
-            
-            </div>
-        </div>
-        <img class="double-down"id="projects-double-down" onclick="window.location.href='#page3'"
-         src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"/>
-    </div>
-    <div id="page3">
-        <h1>About Me</h1>
-        <div id="about-me">
-            <h2>I am a front-end developer who is driven to design a world that promotes equality by creating products that reimagine existing conditions, pushing the future forward. I am energized by ambitious goals and moving metrics. I build products that inform users of their potential and empower them to realize it.</h2>
-        </div>
-        <img onclick="window.location.href='#page4'"class="double-down" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"/>
-    </div>
-    <div id="page4">
-        <h1><a href="#page2"></a>Contact</h1>
-        <div id="contact">
-            <div class="contact-container">
-                <div class="row1">
-                    <img class="button-container" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_78/v1546633805/emptyMail.png"/>
-                    <h2 id="line1">unachoza<br></h2>
-                       <h2 id="line2"> @gmail.com</h2>
-                    <img class="button-container"src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_82/v1544757091/emptyPhone.png"/><br>
-                    <h2>415-310-7944</h2>
-                    <img class="button-container" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_68/v1544754224/emptyLocation.png"/>
-                    <h2>New York, NY</h2>
-                </div>
-                <div class="row2">
-                    <a href="https://linkedin.com/in/arianna-choza-37a44762/" target="_blank">
-                    <img class="button-container" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1544736681/Screen_Shot_2018-12-13_at_4.23.39_PM.png"/></a>
-                    <h2 id="l-padding">linkedin</h2>
-                    <a href="https://github.com/unachoza/" target="_blank">
-                    <img  class="button-container" src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1544736674/Screen_Shot_2018-12-13_at_4.24.23_PM.png"/></a>
-                    <h2 id='github'>github</h2>
-                    <a href="https://res.cloudinary.com/dh41vh9dx/image/upload/v1579919128/Arianna_Choza_-_Frontend.pdf" target="_blank">
-                    <img class="button-container" src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_69,w_85/v1546634212/briefcase.png"/></a>
-                    <h2>Resume</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <div class="these-projects">
+                        <a href="http://susans.surge.sh/" target="_blank">
+                            <div id="cf">
 
-</body>
-<script src="script.js">
+                                <img class="bottom project-img"
+                                    src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1553110722/Screen_Shot_2019-03-20_at_3.38.20_PM.png"
+                                    />
+
+
+                                <img class="top project-img"
+                                    src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_230/v1546220914/susan-sarandon.jpg"
+                                    />
+                            </div></a><br/>
+                            <h2>Susan Says</h2>
+                            <p>Interactive arcade style memory game using
+                                vanilla javascript, CSS and Responsive Web
+                                Design. Users repeat a color pattern delivered
+                                by "Susan" that gets infinitely longer as they
+                                continue to repeat correctly. Upon arriving to
+                                each new level, the background changes to a
+                                differnt feminist. Users recieve a score at the
+                                end. Be ware, it's addictive!</p>
+
+                            <a href="https://github.com/unachoza/Susan-Says"
+                                target="_blank"> <h3>See My Code </h3></a>
+                        </div>
+
+                        <div class="these-projects">
+                            <img class="project-img"
+                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574386294/Screen_Shot_2019-11-21_at_8.31.22_PM.png"
+                                /></a><br/>
+                            <h2>Cancel R Kelly</h2>
+                            <p>Cancel RKelly is an app that effortlessly allows
+                                users remove Rkelly songs from their Spotify
+                                Playists and Library. This app populates users
+                                playlists, then filters through to find
+                                playlists containing R Kelly songs and promps
+                                the user to delete them. Using the Spotify API,
+                                React, Nodejs, Express, and PostgreSQL. </p>
+                            <a
+                                href="https://github.com/unachoza/Cancel-RKelly-with-Spotify-Auth"
+                                target="_blank"> <h3>See My Code </h3></a>
+                        </div>
+                        <div class="these-projects">
+                            <a href="https://pinnacle-clothing.herokuapp.com/"
+                                target="_blank">
+                                <div id="cf">
+                                    <img class="bottom project-img"
+                                        src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1580794434/Screen_Shot_2020-02-04_at_12.33.27_AM.png"
+                                        />
+
+                                    <img class="top project-img"
+                                        src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1580794434/Screen_Shot_2020-02-04_at_12.32.36_AM.png"
+                                        />
+                                </div></a><br/>
+                                <h2>Pinnacle Clothing</h2>
+                                <p>E-commerce site using Firebase
+                                    Authentication. Integrated with Stripe to
+                                    accept credit or debt payments. This is a
+                                    fictional online clothing store, but gosh
+                                    does it look great!</p>
+
+                                <a href="https://github.com/unachoza/e-commerce"
+                                    target="_blank"> <h3>See My Code </h3></a>
+                            </div>
+
+                            <div class="these-projects">
+                                <a
+                                    href="https://image-recognition-w.herokuapp.com/"
+                                    target="_blank">
+                                    <div id="cf">
+                                        <img class="bottom project-img"
+                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1580792102/Screen_Shot_2020-02-03_at_11.49.54_PM.png"
+                                            />
+                                        <img class="top project-img"
+                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1580792102/Screen_Shot_2020-02-03_at_11.53.31_PM.png"
+                                            />
+                                    </div></a><br/>
+                                    <h2>Face Recognition AI</h2>
+                                    <p>Artificial Intelligence is used to detect
+                                        faces in images. Users enter image urls
+                                        and
+                                        AI does the rest! </p>
+                                    <a
+                                        href="https://github.com/unachoza/Recognition-Fullstack-"
+                                        target="_blank"> <h3>See My Code </h3></a>
+                                </div>
+
+
+
+
+                                <div class="these-projects">
+                                    <a
+                                        href="https://searchinggithub.herokuapp.com/"
+                                        target="_blank">
+                                        <img class="project-img"
+                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1571777311/Screen_Shot_2019-10-22_at_4.46.59_PM.png"
+                                            /></a><br/>
+                                        <h2>Github Respo Search</h2>
+                                        <p>This app uses the Github API to allow
+                                            users to search for a specific
+                                            respository. Users can filter by
+                                            license
+                                            types, number of stars and decide to
+                                            include forks. Links provide take
+                                            users
+                                            to that repo on Github. Written in
+                                            Typescript</p>
+                                        <a
+                                            href="https://github.com/unachoza/PrivateGithubSearch"
+                                            target="_blank"> <h3>See My Code
+                                            </h3></a>
+                                    </div>
+                                    <div class="these-projects">
+                                        <a
+                                            href="https://cat-friends.herokuapp.com/"
+                                            target="_blank">
+                                            <img class="project-img"
+                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_230/v1553108095/Screen_Shot_2019-03-20_at_2.54.09_PM.png"
+                                                /></a><br />
+                                        <h2>These Friends</h2>
+                                        <p>React App displaying contact cards
+                                            for
+                                            cat friends using react, jsx, css,
+                                            and
+                                            making use of component lifecyles
+                                            while
+                                            fetching data. Users can search for
+                                            friends by name or email address
+                                        </p>
+                                        <a
+                                            href="https://github.com/unachoza/cat-friends"
+                                            target="_blank"><h3>See My Code
+                                            </h3></a>
+                                    </div>
+                                    <div class="these-projects">
+                                        <a
+                                            href="https://this-youtube-clone.herokuapp.com/"
+                                            target="_blank">
+                                            <img class="project-img"
+                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_230/v1553109235/Screen_Shot_2019-03-20_at_2.59.22_PM.png"
+                                                /></a><br />
+                                        <h2>Stream Videos</h2>
+                                        <p>React App fetching data from Youtube
+                                            API.
+                                            Design so similar to Youtube it's
+                                            almost
+                                            freaky.</p>
+                                        <a
+                                            href="https://github.com/unachoza/search-video"
+                                            target="_blank"> <h3>See My Code
+                                            </h3></a>
+                                    </div>
+
+                                    <div class="these-projects">
+                                        <a
+                                            href="https://searching-images.herokuapp.com/"
+                                            target="_blank">
+                                            <img class="project-img"
+                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574443242/Screen_Shot_2019-11-22_at_12.20.00_PM.png"
+                                                /></a><br />
+                                        <h2>Image Search</h2>
+                                        <p>React App to Search the Google Images
+                                            API
+                                            and display the first 10 returns.
+                                            Register and sign in to keep track
+                                            of
+                                            how many images you've entered! </p>
+                                        <a
+                                            href="https://github.com/unachoza/Image-Search"
+                                            target="_blank"> <h3>See My Code
+                                            </h3></a>
+                                    </div>
+                                    <div class="these-projects">
+                                        <a
+                                            href="http://interestingflowers.surge.sh/"
+                                            target="_blank">
+                                            <img class="project-img"
+                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574386767/Screen_Shot_2019-11-21_at_8.39.16_PM.png"
+                                                /></a><br/>
+                                            <h2>Flower Finder</h2>
+                                            <p>React app using fetches, JSX, CSS
+                                                animations, local storage and
+                                                data
+                                                files. This web app displays a
+                                                library of interesting flower
+                                                cards.
+                                                When users click on the flower
+                                                image, more information about
+                                                that
+                                                flower is pulled from a
+                                                database.</p>
+                                            <a
+                                                href="https://github.com/unachoza/FlowerFinder"
+                                                target="_blank"> <h3>See My Code
+                                                </h3></a>
+                                        </div>
+
+                                        <div class="these-projects">
+                                            <a
+                                                href="http://askmagic8ball.surge.sh/"
+                                                target="_blank">
+                                                <img class="project-img"
+                                                    src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140/v1550079485/Screen_Shot_2019-02-13_at_12.37.02_PM.png"
+                                                    /></a><br/>
+                                                <h2>Magic 8 Ball</h2>
+                                                <p>An Interactive Fortune
+                                                    Telling
+                                                    game using javascript, html,
+                                                    and
+                                                    CSS Animations. Ask the
+                                                    magic 8
+                                                    ball a Yes or No question
+                                                    and
+                                                    recieve a very accurate
+                                                    response.</p>
+                                                <a
+                                                    href="https://github.com/unachoza/Magic-8-Ball"
+                                                    target="_blank"> <h3>See My
+                                                        Code
+                                                    </h3></a>
+                                            </div>
+                                            <div class="these-projects">
+                                                <a
+                                                    href="http://thesearethedetailsforthisparty.surge.sh/"
+                                                    target="_blank">
+                                                    <img class="project-img"
+                                                        src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_140,w_247/v1550016489/Screen_Shot_2019-02-12_at_7.06.34_PM.png"
+                                                        /></a><br/>
+                                                    <h2>Garden Party </h2>
+                                                    <p>Mobile party invitation,
+                                                        heavy on CSS Animations.
+                                                        This invitation begins
+                                                        with
+                                                        a 10 seconds flower
+                                                        animation followered by
+                                                        details of the party to
+                                                        inform the guest of the
+                                                        whimsical garden party
+                                                        they've been invited to.
+                                                    </p>
+                                                    <a
+                                                        href="https://github.com/unachoza/Garden-Party-Invite"
+                                                        target="_blank"> <h3>See
+                                                            My
+                                                            Code </h3></a>
+                                                </div>
+                                                <div class="these-projects">
+                                                    <a
+                                                        href="https://public-book-club.herokuapp.com/"
+                                                        target="_blank">
+                                                        <img class="project-img"
+                                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1574444186/Screen_Shot_2019-11-22_at_12.36.14_PM.png"
+                                                            /></a><br/>
+                                                        <h2>Book Club</h2>
+                                                        <p>Full-stack MVC app
+                                                            intergraded with
+                                                            APIs,
+                                                            Node.js, Express and
+                                                            PostgreSQL. Users
+                                                            can
+                                                            create a profile,
+                                                            search
+                                                            the library, that
+                                                            pulls
+                                                            from the Google
+                                                            Books
+                                                            API for a book they
+                                                            wish
+                                                            to read or create a
+                                                            book
+                                                            club for. Users can
+                                                            add
+                                                            to the reading list,
+                                                            create book clubs,
+                                                            and
+                                                            find more
+                                                            interesting
+                                                            reads. A RESTful API
+                                                            was
+                                                            built to support a
+                                                            database of users,
+                                                            users' reading
+                                                            lists,
+                                                            and book clubs. </p>
+                                                        <a
+                                                            href="https://github.com/unachoza/Book-Clubs"
+                                                            target="_blank">
+                                                            <h3>See
+                                                                My Code </h3></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img class="double-down"
+                                                id="projects-double-down"
+                                                onclick="window.location.href='#page3'"
+                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"
+                                                />
+                                        </div>
+                                        <div id="page3">
+                                            <h1>About Me</h1>
+                                            <div id="about-me">
+                                                <h2>I am a front-end developer
+                                                    who
+                                                    is driven to design a world
+                                                    that
+                                                    promotes equality by
+                                                    creating
+                                                    products that reimagine
+                                                    existing
+                                                    conditions, pushing the
+                                                    future
+                                                    forward. I am energized by
+                                                    ambitious goals and moving
+                                                    metrics. I build products
+                                                    that
+                                                    inform users of their
+                                                    potential
+                                                    and empower them to realize
+                                                    it.</h2>
+                                            </div>
+                                            <img
+                                                onclick="window.location.href='#page4'"
+                                                class="double-down"
+                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_40/v1546887547/angle-double-down.png"
+                                                />
+                                        </div>
+                                        <div id="page4">
+                                            <h1><a href="#page2"></a>Contact</h1>
+                                            <div id="contact">
+                                                <div class="contact-container">
+                                                    <div class="row1">
+                                                        <img
+                                                            class="button-container"
+                                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_78/v1546633805/emptyMail.png"
+                                                            />
+                                                        <h2 id="line1">unachoza<br></h2>
+                                                        <h2 id="line2">
+                                                            @gmail.com</h2>
+                                                        <img
+                                                            class="button-container"
+                                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_82/v1544757091/emptyPhone.png"
+                                                            /><br>
+                                                        <h2>415-310-7944</h2>
+                                                        <img
+                                                            class="button-container"
+                                                            src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,w_68/v1544754224/emptyLocation.png"
+                                                            />
+                                                        <h2>New York, NY</h2>
+                                                    </div>
+                                                    <div class="row2">
+                                                        <a
+                                                            href="https://linkedin.com/in/arianna-choza-37a44762/"
+                                                            target="_blank">
+                                                            <img
+                                                                class="button-container"
+                                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1544736681/Screen_Shot_2018-12-13_at_4.23.39_PM.png"
+                                                                /></a>
+                                                        <h2 id="l-padding">linkedin</h2>
+                                                        <a
+                                                            href="https://github.com/unachoza/"
+                                                            target="_blank">
+                                                            <img
+                                                                class="button-container"
+                                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/v1544736674/Screen_Shot_2018-12-13_at_4.24.23_PM.png"
+                                                                /></a>
+                                                        <h2 id='github'>github</h2>
+                                                        <a
+                                                            href="https://res.cloudinary.com/dh41vh9dx/image/upload/v1579919128/Arianna_Choza_-_Frontend.pdf"
+                                                            target="_blank">
+                                                            <img
+                                                                class="button-container"
+                                                                src="https://res.cloudinary.com/dh41vh9dx/image/upload/c_scale,h_69,w_85/v1546634212/briefcase.png"
+                                                                /></a>
+                                                        <h2>Resume</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </body>
+                                    <script src="script.js">
 function smoothScroll () {
     document.getElementById('page3').scrollIntoView({ 
             behavior: 'smooth' 
           });
         }
 </script>
-</html>
+                                </html>
