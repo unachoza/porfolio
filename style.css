@@ -321,7 +321,7 @@ h3 {
     width: 70%;
   }
   h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   #about-me {
@@ -335,7 +335,10 @@ h3 {
     margin: auto;
     margin-bottom: 80px;
   }
-
+#cf{
+    width: 550px;
+    height: 400px;
+}
   #projects {
     color: rgb(39, 192, 50);
     font-family: monospace;
@@ -363,10 +366,10 @@ h3 {
     font-size: 40px;
   }
   p {
-    font-size: 30px;
+    font-size: 35px;
   }
   h2 {
-    font-size: 38px;
+    font-size: 40px;
     padding-bottom: 80px;
     text-align: justify;
   }
@@ -469,13 +472,13 @@ h3 {
     font-size: 40px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
   p {
-    font-size: 30px;
+    font-size: 35px;
   }
   h2 {
-    font-size: 38px;
+    font-size: 40px;
     padding-bottom: 80px;
     text-align: justify;
   }
