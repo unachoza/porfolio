@@ -142,12 +142,14 @@ ul {
   margin-top: 270px;
   cursor: pointer;
 }
+
 #projects-double-down {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 170px;
 }
+
 .project-img {
   width: 223px;
   height: 137px;
@@ -348,18 +350,6 @@ h3 {
     font-family: monospace;
     display: flex;
     flex-flow: wrap;
-  }
-
-  .typewriter h1 #second-line {
-    flex-wrap: wrap;
-    font-size: 20px;
-  }
-  .typewriter h2 {
-    flex-wrap: wrap;
-    font-size: 28px;
-  }
-  .typewriter h1 {
-    font-size: 50px;
   }
 
   button {

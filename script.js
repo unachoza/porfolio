@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded',function(event){
         }, 100);
       }
       // text finished, call callback if there is a callback function
-      else if (typeof fnCallback == 'function') {
+      else if (typeof fnCallback == 'function')
+      {
         // call callback after timeout
         setTimeout(fnCallback, 700);
       }
