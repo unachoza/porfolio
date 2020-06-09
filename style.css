@@ -259,6 +259,15 @@ h1 {
   margin: 200px 0 100px 0;
   justify-content: center;
 }
+.project-title{
+ color: rgb(39, 192, 50);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0px 20px;
+}
 h2 {
   color: rgb(39, 192, 50);
   font-family: monospace;
